@@ -60,6 +60,15 @@ h1.brand-heading {
   text-transform: uppercase;
 }
 
+@media (max-width: 575.98px) {
+  h1.brand-heading {
+    font-size: 78px;
+  }
+  .list-unstyled {
+    justify-content: center;
+    }
+}
+
 h2.rw-sentence {
   box-sizing: border-box;
   color: #fff;
