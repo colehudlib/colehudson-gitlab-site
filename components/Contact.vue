@@ -15,19 +15,19 @@
                 <div class="row">
                     <div class="form-group col-xs-12 floating-label-form-group">
                         <label for="name">Name</label>
-                        <input class="form-control" type="text" name="name" placeholder="Name">
+                        <input class="form-control" type="text" id="name" name="name" placeholder="Name">
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group col-xs-12 floating-label-form-group">
                         <label for="email">Email Address</label>
-                        <input class="form-control" type="email" name="email" placeholder="Email Address">
+                        <input class="form-control" type="email" id="email" name="email" placeholder="Email Address">
                     </div>
                 </div>
                 <div class="row">
                     <div class="form-group col-xs-12 floating-label-form-group">
                         <label for="message">Message</label>
-                        <textarea placeholder="Message" name="message" class="form-control" rows="5"></textarea>
+                        <textarea placeholder="Message" id="message" name="message" class="form-control" rows="5"></textarea>
                     </div>
                 </div>
                 <br>

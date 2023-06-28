@@ -1,7 +1,7 @@
 <template>
 <!-- Footer -->
 <footer class="footer container text-center">
-    <p style="font-size:10px;">Copyright &copy; {{ new Date().getFullYear() }} - Cole Hudson<br/>
+    <p style="font-size:11px;">Copyright &copy; {{ new Date().getFullYear() }} - Cole Hudson<br/>
         Theme courtesy of <a href="http://startbootstrap.com">Start Bootstrap</a><br/>
         Untitled Photo copyright Paul B. <a href="https://www.flickr.com/photos/eastbeach/10845801845">https://www.flickr.com/photos/eastbeach/10845801845</a>. CC BY-NC 2.0</p>
 </footer>

@@ -4,7 +4,7 @@
 <header class="masthead">
     <div class="container px-4 px-lg-5 d-flex h-100 align-items-center justify-content-center">
         <div class="d-flex justify-content-center">
-            <div class="col-lg-8">
+            <div class="col-lg-8" aria-label="heading">
                 <h1 class="brand-heading">Cole Hudson</h1>
                   <section class="rw-wrapper">
                     <h2 class="rw-sentence ext-white-50 mx-auto mt-2 mb-5">
@@ -19,9 +19,9 @@
                     </h2>
                   </section>
                 <ul class="d-flex justify-content-lg-center list-unstyled">
-                    <li><a href="https://www.facebook.com/colehudson" class="btn-social btn-outline ms-2"><i class="fa fa-fw fa-facebook"></i></a></li>
-                    <li><a href="https://twitter.com/colehud" class="btn-social btn-outline ms-2"><i class="fa fa-fw fa-twitter"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/colehudson" class="btn-social btn-outline ms-2"><i class="fa fa-fw fa-linkedin"></i></a></li>
+                    <li><a href="https://www.facebook.com/colehudson" class="btn-social btn-outline ms-2" aria-label="facebook icon"><i class="fa fa-fw fa-facebook"></i></a></li>
+                    <li><a href="https://twitter.com/colehud" class="btn-social btn-outline ms-2" aria-label="twitter icon"><i class="fa fa-fw fa-twitter"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/colehudson" class="btn-social btn-outline ms-2" aria-label="linkedin icon"><i class="fa fa-fw fa-linkedin"></i></a></li>
                 </ul>
             </div>
         </div>
