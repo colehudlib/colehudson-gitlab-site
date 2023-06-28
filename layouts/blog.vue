@@ -11,10 +11,10 @@
                 <div class="clearfix"></div>
                     <div class="social-icons">
                         <div class="social-icons-right">
-                            <a class="fa fa-github" href="https://github.com/colehudson"></a>
-                            <a class="fa fa-stack-overflow" href="https://stackoverflow.com/users/1483234"></a>
-                            <a class="fa fa-rss" href="/api/_content/query?path=blog/"></a>
-                            <a class="fa fa-twitter" href="https://twitter.com/colehud"></a>
+                            <a class="fa fa-github" aria-label="github icon" href="https://github.com/colehudson"></a>
+                            <a class="fa fa-stack-overflow" aria-label="stackoverflow icon" href="https://stackoverflow.com/users/1483234"></a>
+                            <a class="fa fa-rss" aria-label="rss icon" href="/api/_content/query?path=blog/"></a>
+                            <a class="fa fa-twitter" aria-label="twitter icon" href="https://twitter.com/colehud"></a>
                         </div>
                         <div class="right">
                         </div>
