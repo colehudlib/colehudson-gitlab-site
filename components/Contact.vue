@@ -11,7 +11,7 @@
         <div class="col-lg-8 mx-auto">
             <form id="contact_form" action="https://formspree.io/f/mzbqqpbo" method="POST">
                 <input type="hidden" name="_subject" value="colehudson.org Form Submission" style="display:none">
-                <input type="text" name="_gotcha" style="display:none">
+                <input type="text" name="_gotcha" aria-label="Don't fill in this field; it's for bots" style="display:none">
                 <div class="row">
                     <div class="form-group col-xs-12 floating-label-form-group">
                         <label for="name">Name</label>
