@@ -8,11 +8,18 @@ cache:
     - node_modules/
 
 pages:
+  stage: deploy
   script:
     - npm run generate
-    - cp -r .output/public/* public
   artifacts:
     paths:
       - public
   rules:
     - if: $CI_COMMIT_REF_NAME == $CI_DEFAULT_BRANCH
+  
+  test:
+    stage: test
+    script:
+      - npm test
+    rules:
+      - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
