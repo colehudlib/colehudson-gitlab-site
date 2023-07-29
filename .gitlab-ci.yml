@@ -1,5 +1,10 @@
 image: node
 
+stages:
+  - deploy
+  - test
+  - accessibility
+
 before_script:
   - npm install
 
@@ -24,3 +29,9 @@ test:
     - npm test
   rules:
     - if: $CI_COMMIT_REF_NAME != $CI_DEFAULT_BRANCH
+
+variables:
+  a11y_urls: "https://colehudson.org https://colehudson.org/blog"
+
+include:
+  - template: "Verify/Accessibility.gitlab-ci.yml"
