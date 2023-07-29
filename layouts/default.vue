@@ -1,15 +1,13 @@
 <template>
-    <body id="page-top">
         <Navigate />
         <slot />
         <Contact />
         <TheFooter />
-    </body>
 </template>
 
-<style lang="css" scoped>
+<style lang="css">
 body {
+    margin: 0px;
     background-color: #000;
-    margin: unset;
 }
 </style>
